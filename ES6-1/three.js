@@ -6,5 +6,5 @@ let new_Enames=enames.map((ename)=>{
 
 //let new_Enames=enames.map(name=>name.toUpperCase())
 
-console.log(enames)
-console.log(new_Enames)
+console.log(enames);
+console.log(new_Enames);
