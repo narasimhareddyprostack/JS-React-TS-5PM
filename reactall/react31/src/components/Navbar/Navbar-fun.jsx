@@ -1,9 +1,6 @@
-import React from "react";
+let Navbar=()=>{
 
-class Navbar extends React.Component{
-
-    render(){
-        return <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+    return <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
                 <a href="#">Logo</a>   
                 <div className="ms-auto">
                     <ul className="navbar-nav">
@@ -15,6 +12,5 @@ class Navbar extends React.Component{
                     </ul>
                 </div>
         </nav>
-    }
 }
 export default Navbar;
