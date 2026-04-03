@@ -1,10 +1,9 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-const App = () => {
-  
+import User from "./props/User";
+let App = ()=>{
     return <div>
-           <Navbar/>
-         </div>
+            <h1>App Component</h1>
+            <hr/>
+            <User/>
+            </div>
 }
-
-export default App
+export default App;
