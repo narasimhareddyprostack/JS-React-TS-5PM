@@ -1,11 +1,10 @@
-import Message from "./stateEx/Message";
-import Counter from "./stateEx/Counter";
-let App = ()=>{
-    return <div>
-            <h1>App Component</h1>
-            <hr/>
-          
-            <Counter/>
-            </div>
+import React from 'react'
+import Users from './users/Users';
+const App = () => {
+  return <div>
+        <h3>App Component</h3>
+        <Users/>
+  
+        </div>
 }
 export default App;
