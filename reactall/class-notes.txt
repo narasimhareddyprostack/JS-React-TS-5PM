@@ -1,5 +1,13 @@
 Usage: get all users
-Rest API URL:
+Rest API URL:https://jsonplaceholder.typicode.com/users
 Method Type:GET
 Required Fields:None
 Access Type:Public
+
+Java
+-----------------------------
+try{}
+catch(){}
+finally{}
+throw
+throws
